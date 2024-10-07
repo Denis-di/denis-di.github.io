@@ -1,8 +1,8 @@
 body{
     background-image: url('Mostic.png');
-    background-position: center;
+    background-position: unset ;
     background-size: cover;
-    color: rgb(212, 21, 21);
+    color: rgb(236, 17, 17);
 }
 #REACT{
 text-align: center;
@@ -24,7 +24,10 @@ a {
 }
 #PILING
 {
-color: darkslategray;
+    color: darkslategray;
+    background-color: wheat;
+    border: solid;
+    border-color: black;
 }
 .TITLEE:hover {
     font-family: Arial, sans-serif; 
