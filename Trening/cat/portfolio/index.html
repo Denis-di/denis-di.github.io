@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПОРТФОЛИО</title>
+    <style>
+
+        .lesson {
+            font-size: large;
+            font-family: sans-serif;
+            display: grid; 
+            grid-template-columns: repeat(2,1fr);
+        }
+        body{
+            background-color: aqua;
+        }
+        h1 {
+            text-align: center; font-family: monospace;
+        }
+        .circle{
+            background-color: rgba(167, 108, 56, 0.11);
+            width: 90%;
+            height: 100%;
+            border-radius: 30%;
+            transform: translate();
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+        }
+        .menu {
+            display: flexbox;
+            border: solid;
+        }
+        .circle:hover {
+            transform: scale(1.05);
+        }
+        p::first-line {
+            font-family: monospace;
+        }
+        @media (max-width:600px) {
+        body {
+            background-color: aquamarine;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Мое ПОРТФОЛИО
+    </h1>
+    <div class="lesson">
+        <div style="border: solid; margin: 4%;">
+            Я прохожу курс на STEPIC, мне 23 года активно изучаю JAVA script
+        </div>
+        <div style="border: solid; margin: 4%;">
+            Сегодня я изучао такие команды как *grid*, flex, @media
+        </div>
+    </div>
+    <h1> Небольшая работа в сфере дизайна </h1>
+    <div class="lesson" style="padding: 2%;">
+        <div class="circle" style="padding: 4%; ">
+            <p>Почитав одну интересную книгу Марии Корелли "Скорбь Сатаны"</p>
+            <p>Мне очень понравилась линия рассуждения дьявола о мире людей</p>
+        </div>
+        <div class="circle" style="padding: 4%; "> 
+            <p>И как и Сегрей Камянецкий необходимо бороться с прокрастинацией</p>
+            <p>Недавно прочитал книгу "Прокрастинация. Первая помощь" автор Таня ван Эссен на тему прокрастинации</p>
+        </div>
+    </div>
+    <div class="lesson" style="padding: 5%;">
+        <div style="position:relative ; transform: translateX(-5%);  ;">
+            <img src="https://sun9-84.userapi.com/impf/c849224/v849224625/7dfc4/bP6Ttm8Gloo.jpg?size=1280x960&quality=96&sign=fe5b06a89cca9857404f7c1f4e6f47ca&c_uniq_tag=hjoQMHQwYoZDTX_G0Ll5i_x7OYx8uv0FiULzApA1mgM&type=album" width="100%" height="100%" style="border-radius: 6%; border:dotted" alt="">
+        </div>
+        <div>
+            <img src="https://habrastorage.org/getpro/habr/upload_files/fc7/a79/bb3/fc7a79bb3c46aa612cd649a34144be21.png" width="100%" height="100%" style="border-radius: 6%; border:dotted" alt="">
+        </div>
+    </div>
+        <h2 style="text-align: center;  font-family: sans-serif;">
+            Практическое задание
+        </h2>
+    <div>
+        <ul class="menu">
+            <li>Главная</li>
+            <li>О&nbsp;нас</li>
+            <li>Услуги</li>
+            <li>Портфолио</li>
+            <li>Контакты</li>
+        </ul>
+    </div>
+</body>
+</html>

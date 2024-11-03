@@ -1,3 +1,4 @@
+
 body
 {
 
@@ -32,9 +33,9 @@ a
 #PILING
 {
     color: darkslategray;
-    background-color: wheat;
     border: solid;
     border-color: black;
+    font-size: 20px;
 }
 .TITLEE:hover 
 {
@@ -45,3 +46,22 @@ a
    {
     font-size:40px;
    }
+   @media (max width: 600px) {
+
+   }
+.downthis {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: center;
+padding: 10px;
+font-weight: 700;
+
+
+}
+@media (max-width:600px){
+    .TITLEE {
+        font-size: 40px;
+    }
+}
