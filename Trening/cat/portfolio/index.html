@@ -28,8 +28,20 @@
           
         }
         .menu {
-            display: flexbox;
-            border: solid;
+            display: flex;
+            font-family: sans-serif;
+            background-color: #f4f4f4b6;
+            margin: 0%;
+            padding: 0%;
+            gap: 10%;
+            list-style: none;
+            border-radius: 5%;
+        }
+        li {
+            background-color: silver;
+            border-radius: 10px;
+            margin: 1%;
+            padding: 1.5%;
         }
         .circle:hover {
             transform: scale(1.05);
@@ -37,14 +49,30 @@
         p::first-line {
             font-family: monospace;
         }
-        @media (max-width:600px) {
+        @media (max-width:900px) {
         body {
             background-color: aquamarine;
+        }
+        .menu {
+            display: block;
+            padding: 1%;
         }
         }
     </style>
 </head>
 <body>
+    <h2 style="text-align: center;  font-family: sans-serif;">
+        Практическое задание
+    </h2>
+    <div>
+        <ul class="menu">
+            <li>Главная</li>
+            <li>О&nbsp;нас</li>
+            <li>Услуги</li>
+            <li>Портфолио</li>
+            <li>Контакты</li>   
+        </ul>
+    </div>
     <h1>
         Мое ПОРТФОЛИО
     </h1>
@@ -75,17 +103,5 @@
             <img src="https://habrastorage.org/getpro/habr/upload_files/fc7/a79/bb3/fc7a79bb3c46aa612cd649a34144be21.png" width="100%" height="100%" style="border-radius: 6%; border:dotted" alt="">
         </div>
     </div>
-        <h2 style="text-align: center;  font-family: sans-serif;">
-            Практическое задание
-        </h2>
-    <div>
-        <ul class="menu">
-            <li>Главная</li>
-            <li>О&nbsp;нас</li>
-            <li>Услуги</li>
-            <li>Портфолио</li>
-            <li>Контакты</li>
-        </ul>
-    </div>
 </body>
-</html>
+</html> 
